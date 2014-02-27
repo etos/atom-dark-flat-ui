@@ -1,6 +1,6 @@
 @import "ui-variables";
 @modified-icon-width: 8px;
-@tab-top-padding: 5px;
+@tab-top-padding: 6px;
 @tab-bottom-border-height: @tab-top-padding;
 
 .tab-bar {
@@ -26,6 +26,7 @@
     line-height: @tab-height;
     color: @text-color;
     background-color: #333;
+    border-radius: (@tab-top-padding / 3) (@tab-top-padding / 3) 0 0;
 
     padding-left: 0; // hack, part 1
 
