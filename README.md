@@ -1,6 +1,6 @@
-# Atom Dark UI theme
+# Atom Dark/Flat UI theme
 
-Default dark UI theme for Atom.
+Fork of Atom's default dark UI theme, but with flat tabs.
 
 This theme is installed by default with Atom and can be activated by going to
 the _Themes_ section in the Settings view (`cmd-,`) and selecting it from the
