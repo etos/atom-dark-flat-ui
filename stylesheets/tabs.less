@@ -1,10 +1,12 @@
 @import "ui-variables";
 @modified-icon-width: 8px;
-@tab-top-padding: 6px;
+@tab-top-padding: 1px;
+@tab-right-margin: 4px;
+@tab-top: 3px;
 @tab-bottom-border-height: @tab-top-padding;
 
 .tab-bar {
-  height: @tab-height + @tab-top-padding + @tab-bottom-border-height;
+  height: @tab-height;
   background: @tab-bar-background-color;
   padding: 0 @tab-top-padding 0 @tab-top-padding;
   box-sizing: border-box;
@@ -21,7 +23,7 @@
 
   .tab {
     position: relative;
-    top: @tab-top-padding;
+    top: @tab-top;
     height: @tab-height;
     line-height: @tab-height;
     color: @text-color;
@@ -30,7 +32,7 @@
 
     padding-left: 0; // hack, part 1
 
-    margin-right: @tab-top-padding;
+    margin-right: @tab-right-margin;
     border: none;
 
     .close-icon {
